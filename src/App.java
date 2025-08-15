@@ -2,6 +2,7 @@ import com.main.math.Problems;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("GCD: "+Problems.findGCD(192, 270));
+        int[] array = {270,192,72};
+        Problems.findPrimeNumbers(50);
     }
 }
